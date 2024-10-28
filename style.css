@@ -1,0 +1,96 @@
+* {
+    color: chocolate;
+    font-family: cursive;
+}
+.name {
+    text-align: center;
+    text-decoration-color: none;
+    text-decoration:blue wavy underline;
+    font-weight: lighter;
+    font-family: cursive;
+}
+body {
+color: chocolate;
+align-items: center;
+height: 100vh;
+font-family: cursive;
+}
+#profile {
+    text-align: center;
+    border-radius: 50%;
+    border-width: 10px;
+}
+
+#dlink {
+    text-align: center;
+}
+#mainlink {
+    text-align: center;
+    font-weight: lighter;
+    font-family: cursive;
+    line-height: 22px;
+}
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
+}
+
+#button {
+    background-color: green;
+}
+
+#contacts {
+
+    font-weight: lighter;
+    font-family: cursive;
+    height: 300px;
+    background-color: #0f1111;
+    display: block;
+}
+
+#logo {
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+
+.glow {
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+    text-shadow: 
+        0 0 5px #ff0000, 
+        0 0 10px #ff0000, 
+        0 0 15px #ff007f,
+        0 0 20px #007fff, 
+        0 0 30px #00ff7f, 
+        0 0 40px #ffff00, 
+        0 0 50px #300a30;
+    animation: glow-animation 1s infinite alternate;
+}
+
+@keyframes glow-animation {
+    0% {
+        text-shadow: 
+            0 0 5px #ff0000, 
+            0 0 10px #ff0000, 
+            0 0 15px #ff007f,
+            0 0 20px #007fff, 
+            0 0 30px #00ff7f, 
+            0 0 40px #ffff00, 
+            0 0 50px #2b082b;
+    }
+    100% {
+        text-shadow: 
+            0 0 10px #ff0000, 
+            0 0 20px #ff0000, 
+            0 0 30px #ff007f,
+            0 0 40px #007fff, 
+            0 0 60px #00ff7f, 
+            0 0 80px #ffff00, 
+            0 0 100px #ff00ff;
+    }
+}
